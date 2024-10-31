@@ -1,0 +1,22 @@
+{
+    "name": "beeketing/wordpress-common",
+    "description": "Beeketing wordpress common api, function",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tungquach",
+            "email": "tungquach@brodev.com"
+        }
+    ],
+    "require": {
+        "paragonie/random_compat": "^2.0",
+        "kriswallsmith/buzz": "^0.15.0",
+        "symfony/http-foundation": "^3.2",
+        "bandwidth-throttle/token-bucket": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BKPersonalizedRecommendationSDK\\": "src/"
+        }
+    }
+}
